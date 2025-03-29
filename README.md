@@ -1,5 +1,4 @@
-# 🔒 Securing an Azure Deployment - Step-by-Step Guide
-
+# 🔒 Securing an Azure Deployment - capstone project
 ## 📌 Real-World Scenario
 
 You are a cloud security engineer tasked with securing a new Azure deployment for a large healthcare provider. The company handles sensitive patient data and is required to comply with strict privacy regulations. Your job is to implement a comprehensive security posture across identity, network, and data layers to ensure confidentiality, integrity, and availability.
