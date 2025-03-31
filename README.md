@@ -27,6 +27,15 @@ This guide will walk you through the process of **securing an Azure Virtual Mach
 - [📤 Step 6: Submit Your Work](#-step-6-submit-your-work)---
 
 ---
+
+## Daily Tips
+- [Day 1 Tips](day1-tips.md)
+- [Day 2 Tips](day2-tips.md)
+- [Day 3 Tips](day3-tips.md)
+- [Day 4 Tips](day4-tips.md)
+- [Day 5 Tips](day5-tips.md)
+- [Day 6 Tips](day6-tips.md)
+
 A **Virtual Machine (VM)** is like a computer running in the cloud. We will **deploy a secure VM** and protect it from unauthorized access.
 
 ## 🛠 Step 1: Deploy a Secure Virtual Machine
