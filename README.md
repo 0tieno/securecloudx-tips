@@ -11,3 +11,9 @@ Welcome to the SecureCloudX Tips Repository! This repository contains valuable t
 - [Day 6 Tips](day6-tips.md)
 
 Explore the daily tips to learn more about securing your Azure resources and improving your overall security posture. Stay informed and stay secure!
+
+## Prerequisites
+- An active Azure subscription
+- Basic knowledge of Azure services and concepts
+- Access to Azure Portal
+- Administrative privileges for managing Azure resources
