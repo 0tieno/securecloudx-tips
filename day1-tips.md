@@ -1,4 +1,5 @@
-# Quick Tips for Day 1  
+# Quick Tips for Day 1
+
 1. **Think of IAM like a security guard** – It controls **who** gets in and **what** they can do.  
 2. **Microsoft Entra ID (Azure AD) = Identity Provider** – It manages users, groups, and authentication.  
 3. **RBAC = Access Control** – Assign roles like "Reader" or "Admin" to limit actions.  
