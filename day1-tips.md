@@ -1,40 +1,45 @@
-# Day 1 Tips for Securing an Azure Deployment
+# Quick Tips for Day 1  
+1. **Think of IAM like a security guard** – It controls **who** gets in and **what** they can do.  
+2. **Microsoft Entra ID (Azure AD) = Identity Provider** – It manages users, groups, and authentication.  
+3. **RBAC = Access Control** – Assign roles like "Reader" or "Admin" to limit actions.  
+4. **MFA (Multi-Factor Authentication) = Extra Security** – Even if someone steals your password, they still need a second verification (e.g., a phone code).  
+5. **Least Privilege Principle** – Always give users the lowest level of access they need to do their job.  
 
-## 1. Use Strong Authentication Methods
-- Implement Multi-Factor Authentication (MFA) to add an extra layer of security.
-- Use strong, unique passwords for all accounts.
-- Avoid using default usernames like "admin" or "root".
+## Common Challenges & How to Solve Them  
 
-## 2. Implement Role-Based Access Control (RBAC)
-- Assign users only the permissions they need to perform their tasks.
-- Regularly review and update role assignments to ensure they are still appropriate.
+#### ❌ Challenge 1: **Can't Assign RBAC Roles**  
+**Problem:** You don’t see the option to assign roles in the Azure portal.  
+✔ **Solution:**  
+- Ensure you have **Owner** or **User Access Administrator** permissions.  
+- Go to **Azure Portal → Subscription → IAM (Access Control) → Role Assignments** and check your role.  
 
-## 3. Secure Network Access
-- Use Network Security Groups (NSGs) to control inbound and outbound traffic to your Azure resources.
-- Restrict access to management ports (e.g., SSH, RDP) using NSGs and Azure Firewall.
-- Implement Virtual Network (VNet) peering to securely connect different VNets.
+### ❌ Challenge 2: **MFA Not Prompting on Login**  
+**Problem:** Users are still logging in without MFA.  
+✔ **Solution:**  
+- Check if MFA is **enabled for all users** in **Azure AD Security > Conditional Access**.  
+- If using Conditional Access, ensure MFA is **applied to the correct group**.  
 
-## 4. Enable Security Monitoring
-- Enable Azure Security Center to get a unified view of your security posture.
-- Set up Azure Sentinel for advanced threat detection and response.
-- Configure alerts for suspicious activities and potential security breaches.
+### ❌ Challenge 3: **Accidentally Locked Out**  
+**Problem:** You enabled strict MFA and lost access.  
+✔ **Solution:**  
+- Use an **emergency access account** (excluded from MFA).  
+- If locked out, reset your settings using **Azure Support**.  
 
-## 5. Protect Data at Rest and in Transit
-- Use Azure Key Vault to securely store and manage sensitive information like passwords and API keys.
-- Enable encryption for data at rest using Azure Storage Service Encryption (SSE).
-- Use HTTPS to encrypt data in transit between clients and Azure services.
+### ❌ Challenge 4: **Users Still Have Too Much Access**  
+**Problem:** A user can still edit or delete resources despite applying RBAC.  
+✔ **Solution:**  
+- Check for **role inheritance**—if a user is in multiple groups, they might inherit higher privileges.  
+- Use **Azure Role Assignments** to check their exact permissions.  
 
-## 6. Regularly Update and Patch Systems
-- Keep your Azure VMs and other resources up to date with the latest security patches.
-- Enable automatic updates for your operating systems and applications.
-- Regularly review and apply security updates to your Azure resources.
+### ❌ Challenge 5: **Can't Test VM Access Restrictions**  
+**Problem:** The test user can still log in without restrictions.  
+✔ **Solution:**  
+- Verify that the test user **does not belong to an admin role**.  
+- Check if RBAC settings **propagated properly** (sometimes changes take a few minutes).   
 
-## 7. Backup and Disaster Recovery
-- Implement a backup strategy to regularly back up your critical data.
-- Use Azure Backup to automate and manage backups for your Azure resources.
-- Test your backup and disaster recovery plans to ensure they work as expected.
+## Challenge Yourself  
+🔹 Can you set up **a new user** and assign them the **"Reader" role** in Azure?  
+🔹 Can you enable **MFA** for an account and test logging in?  
+🔹 Try **removing access** for a user and see what happens when they try to log in!  
 
-## 8. Educate and Train Your Team
-- Provide regular security training and awareness programs for your team.
-- Encourage a culture of security by promoting best practices and sharing knowledge.
-- Stay informed about the latest security threats and trends in the industry.
+IAM is **your first line of defense** in cloud security! Proper identity and access controls help **prevent unauthorized access, data breaches, and cyber threats**.🔐
