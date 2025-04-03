@@ -1,1 +1,1 @@
-# Day 2 Tips
+# Day 2 Tips coming soon
