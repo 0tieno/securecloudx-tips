@@ -1,6 +1,8 @@
 # SecureCloudX Tips Repository
 
-Welcome to the SecureCloudX Tips Repository! This repository contains valuable tips and best practices for securing your Azure deployment. Each day, we provide a new set of tips to help you enhance the security of your cloud environment.
+Welcome to the SecureCloudX Tips Repository! This repository contains valuable tips and best practices. Each day, we provide a new set of tips to help you complete [securecloudx](https://securecloudx.pages.dev) challenges.
+
+Before starting the challenges, please read [this](before-you-start.md)
 
 ## Daily Tips
 - [Day 1 Tips](day1-tips.md)
