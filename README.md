@@ -2,9 +2,8 @@
 
 Welcome to the SecureCloudX Tips Repository! This repository contains valuable tips and best practices. Each day, we provide a new set of tips to help you complete [securecloudx](https://securecloudx.pages.dev) challenges.
 
-Before starting the challenges, please read [this](before-you-start.md)
-
 ## Daily Tips
+- [Before you start](before-you-start.md)
 - [Day 1 Tips](day1-tips.md)
 - [Day 2 Tips](day2-tips.md)
 - [Day 3 Tips](day3-tips.md)
