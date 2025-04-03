@@ -1,2 +1,2 @@
-# Day 3 Tips
+# Day 3 Tips coming soon
 
