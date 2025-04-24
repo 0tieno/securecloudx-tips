@@ -18,3 +18,5 @@ Explore the daily tips to learn more about securing your Azure resources and imp
 - Basic knowledge of Azure services and concepts
 - Access to Azure Portal
 - Administrative privileges for managing Azure resources
+
+maintained by [ronney otieno](https://ronneyotieno.me)
