@@ -1,2 +1,2 @@
-# Day 3 Tips coming soon
+# Day 3: Data Security & Encryption. Tips coming soon
 
