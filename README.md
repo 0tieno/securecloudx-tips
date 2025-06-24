@@ -19,4 +19,4 @@ Explore the daily tips to learn more about securing your Azure resources and imp
 - Access to Azure Portal
 - Administrative privileges for managing Azure resources
 
-maintained by [ronney otieno](https://ronneyotieno.me)
+maintained by [ronney otieno](https://ronneyotieno.me) and just incase you want to contribute, refer to [CONTRIBUTING.md](https://github.com/0tieno/securecloudx-tips/blob/main/CONTRIBUTING.md)
