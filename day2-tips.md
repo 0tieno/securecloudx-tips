@@ -1,5 +1,7 @@
 # Day 2 Tips: 🔒 Azure Firewall Proof of Concept Lab — Step-by-Step
 
+Before you continue, consider reading [this blog](https://securecloudwithronney.hashnode.dev/understanding-network-security-in-the-cloud) to understand the basics of network security in the cloud.
+
 ## Overview of What We'll Do:
 ![diagram-export-4-23-2025-9_47_58-AM](https://github.com/user-attachments/assets/5e133988-89b9-4596-aeb1-0f8300ec475a)
 
