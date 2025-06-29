@@ -1,6 +1,6 @@
 # SecureCloudX Tips Repository
 
-Welcome to the SecureCloudX Tips Repository! This repository contains valuable tips and best practices. Each day, we provide a new set of tips to help you complete [securecloudx](https://securecloudx.pages.dev) challenges.
+Welcome to the SecureCloudX Tips Repository! This repository contains valuable tips and best practices. Each day, we provide a new set of tips to help you complete [securecloudx](https://securecloudx.pages.dev) challenges. If you find it useful, consider giving it a star.
 
 ## Daily Tips
 - [Before you start](before-you-start.md)
